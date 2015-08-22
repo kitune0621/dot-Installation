@@ -55,6 +55,28 @@ $ git log ← logを見る
 
 ##05 gitのログを見てみよう
 
+1. $ git logでlog表示される(以下に表示された内容を上から説明)  
+commit 数字の羅列 ← commitに付くIDのようなもの  
+Auther: namae <email> ← commitした人  
+Date ← commitした日時  
+一番下に自分がつけたcommitメッセージ。多くなると分からなくなるのでなるべく分かりやすく  
+
+2. $ git logのオプション  
+$ git log --oneline ← コンパクトに見たい時に使う  
+$ git log -p ← 変更された場所もみたい時に使う
+※null≓何もない  
+$ git log stat ← どこが変更されたかではなく、どのファイルが変更を加えたかを見れる
+
+---
+
+##06 現在の状態を把握しよう
+
+$ ls ← ファイル,ディレクトリの情報を表示する    
+$ git stauts ← ステージイングエリアに上がっているかを教えてくれる  
+$ git checkout -- name.html ← 変更したファイルを取り消す  
+よく分からなくなったら$ git stausを使う  
+
+
 
 
 
