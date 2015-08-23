@@ -93,7 +93,7 @@ $ git diff --cached
 ##08 gitでのファイルの操作
 
 $ git add . ← 今のディレクトリより下にあるファイルを全てステージングエリアに上げる  
-$ git rm name.html ← ファイルの削除  
+$ git rm name.html ← ファイルの削除(この場合、name.htmlを削除する)  
 $ git mv name.html ← ファイルの移動  
 ※一度ステージングエリア,コミットに上げた後にLinuxのコマンド(rm,mv)を使うとgitで管理していたファイルが分からなくなるので注意    
 
@@ -128,6 +128,23 @@ commitされたものは基本的に全て保存されている。リセット�
 ---
 
 ##13 ブランチを使ってみよう
+
+複数のバーションを作成することが出来る
+
+$ git branch ← 別のバージョンを使いたい時に使う(分岐)  
+$ git btanch (branch name) ← 新しいブランチを作る  
+$ git checkout (branch name) ← ブランチを移動する  
+
+---
+
+##14 ブランチをマージしてみよう
+
+$ git merge ← 別のブランチのファイルを他のブランチに反映させたいときに使う(例:masterブランチにhogeブランチを加えたい場合、masterブランチで$ git mergeを使う)  
+$ git branch -d (branch name) ← ブランチを消したいときに使う  
+
+
+
+
 
 
 
