@@ -193,11 +193,30 @@ $ git config --global alias.st status
 $ git config --global alias.br branch  
 $ git config --global alias.ci commit  
 
-$ git config -l ← 設定したtagうぃ見ることが出来る  
+$ git config -l ← 設定したtagを見ることが出来る  
 
 ---
 
 ##19 はじめての共同作業
+
+共有リポジトリ ourweb.git  
+(共有リポジトリには.gitと付けるのが決まり)  
+
+今回は1人のユーザーが一人二役(AとB)で作業するものとする  
+A myweb  
+B myweb2  
+
+まず、共有リポジトリを作る  
+& mkdir ourweb.git ← ディレクトリ作成
+
+次に作ったディレクトリに移動し、共有リポジトリにする  
+$ cd ourwe.git　←　ディレクトリを移動  
+$ git init --bare ← 共有リポジトリになる(基本的にcommitなどはしない)  
+
+次にAさんの気持ちなって
+
+
+
 
 
 
