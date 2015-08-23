@@ -179,6 +179,31 @@ line first
 $ git tag v1.0 ← 直近のコミットにタグを付ける  
 $ git tag ← tagの一覧を表示  
 ※$ git show や& git resetなどでIDを指定するとき、設定したtagを使える  
+$ git tag v0.9 (commitID) ← IDを指定してtagを付けられる(commitIDは全てじゃなくとも分かる数だけで良い)  
+$ git tag -d (tag name) ← (tag name)を消せる  
+
+---
+
+##18 エアリアスを使ってみよう
+
+・エアリアスとは、gitのコマンドに短縮名をつけること  
+
+$ git config --global alias.co checkout  
+$ git config --global alias.st status  
+$ git config --global alias.br branch  
+$ git config --global alias.ci commit  
+
+$ git config -l ← 設定したtagうぃ見ることが出来る  
+
+---
+
+##19 はじめての共同作業
+
+
+
+
+
+
 
 
 
