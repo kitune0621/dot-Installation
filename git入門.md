@@ -218,6 +218,8 @@ $ git init --bare ← 共有リポジトリになる(基本的にcommitなどは
 
 ##20 共有リポジトリにpushしてみよう
 
+$ git remote ← 
+
 
 
 
