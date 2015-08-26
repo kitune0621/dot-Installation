@@ -216,7 +216,7 @@ $ git init --bare ← 共有リポジトリになる(基本的にcommitなどは
 
 ---
 
-##20 共有リポジトリにpushしてみよう
+##20 共有リポジトリにpushしてみよう　
 
 $ git remote add (name) (repos location) ← 別のリポジトリを追加する  
 ※nameはoriginがよく使われる  
