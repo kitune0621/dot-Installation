@@ -15,4 +15,17 @@ http://daringfireball.net/projects/markdown/
  - Sublime text
  
 * 準備
+ - sublime textからMarkupdownの文章をプレビューするためのパッケージをダウンロードする  
+   ※パッケージ:https://packagecontrol.io/installation  
+
+---
+
+##02 見出しを書いてみよう
+
+h1 = \#h2
+h2 = \##h2
+･
+･
+･
+h6 = \######h6
  
