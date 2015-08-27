@@ -22,10 +22,21 @@ http://daringfireball.net/projects/markdown/
 
 ##02 見出しを書いてみよう
 
-h1 = \#h2
-h2 = \##h2
-･
-･
-･
-h6 = \######h6
+h1 = \# h2  
+h2 = \## h2  
+･  
+･  
+･  
+h6 = \###### h6
+
+h1とh2には別の書き方がある  
+h1は  
+Title1  
+\======  
+
+h2は
+Title2
+\------
+
+
  
