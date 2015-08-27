@@ -5,7 +5,7 @@
 * 概要
  - 軽量マークアップテキスト  
  - プレインテキスト → HTML  
- /# Title → <h1>Title</h1>
+ \# Title → <h1>Title</h1>
  
 * 公式サイト  
 http://daringfireball.net/projects/markdown/
