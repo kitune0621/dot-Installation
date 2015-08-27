@@ -159,13 +159,13 @@ $ git checkout -b branch ← ブランチを作り一気にその作ったブラ
 <<<<<<<HEAD  
 line 1st  
 
-=======  
+\=======  
 line first  
->>>>>>>hogehoge  
+\>>>>>>>hogehoge  
 
-と表示される。<<<<<<<HEADと>>>>>>>hogehogeで囲まれている部分がコンフリクトしていることを示している。(この場合、HEADとhogehogeのline 1stとline firstがコンフリクトしている)  
+と表示される。\<<<<<<<HEADと\>>>>>>>hogehogeで囲まれている部分がコンフリクトしていることを示している。(この場合、HEADとhogehogeのline 1stとline firstがコンフリクトしている)  
 
-修正するには、<<<<<<<HEADと=======から>>>>>>>hogehogeの部分(line 1st以外)削除すれば良い   
+修正するには、\<<<<<<<HEADと\=======から\>>>>>>>hogehogeの部分(line 1st以外)削除すれば良い   
 
 ※一人で作業している時でも、複数の人でやっている時でも、コンフリクトが起こることがあるので注意する
 
