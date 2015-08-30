@@ -44,14 +44,14 @@
 
 ##05 meta linkタグを使って見よう
 
-<!DCOTYPE hrml> ← HTMLで文章を書くときの宣言的なもの  
-<heml lang="jp"> ← 基本的にはhtmlタグでくくり、lang(言語)を指定する  
-<head> ← 文章自体の情報を書く  
-<body> ← 本文などを書く  
-<title> ← ブラウザで表示した際に、タブなどに表示される文字列  
-<meta charset="utf8"> ← このページの文字コードを指定する。この場合は、utf8に設定する。(chrsetの綴りを間違えたりすると文字化けが起こる  
-<meta name="description" content="初めてのHTMLの文章です"> ← 文章の説明。検索に引っかかるようにする  
-<mlink rel="shortcut icon" href="favicon.jpg" > ← favicon(タブなどで表示されるアイコン)。relでshortcutと書き、hrefでアイコン名を書く。
+\<!DCOTYPE hrml> ← HTMLで文章を書くときの宣言的なもの  
+\<heml lang="jp"> ← 基本的にはhtmlタグでくくり、lang(言語)を指定する  
+\<head> ← 文章自体の情報を書く  
+\<body> ← 本文などを書く  
+\<title> ← ブラウザで表示した際に、タブなどに表示される文字列  
+\<meta charset="utf8"> ← このページの文字コードを指定する。この場合は、utf8に設定する。(chrsetの綴りを間違えたりすると文字化けが起こる  
+\<meta name="description" content="初めてのHTMLの文章です"> ← 文章の説明。検索に引っかかるようにする  
+\<mlink rel="shortcut icon" href="favicon.jpg" > ← favicon(タブなどで表示されるアイコン)。relでshortcutと書き、hrefでアイコン名を書く。
 
 ---
 
@@ -59,14 +59,14 @@
 
 <style> ← 文章の見た目を規定するためのCSSを書くことが出来るタグ
 例:  
-body { background: skyblue; }  
+\body { background: skyblue; }  
 
-styleは書いていると長くなることがあるので、その場合は別のファイル(css)に分ける  
+\styleは書いていると長くなることがあるので、その場合は別のファイル(css)に分ける  
 cssファイルの指定方法は  
-<link rel="stylesheet" href="name.css">  
+\<link rel="stylesheet" href="name.css">  
 でcssが呼び出される
 
-<!-- コメント --> ← 動作に関係ないメモ書きを書くことが出来る。
+\<!-- コメント --> ← 動作に関係ないメモ書きを書くことが出来る。
 
 
 
