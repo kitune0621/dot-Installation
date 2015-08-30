@@ -130,9 +130,97 @@ dl (definition list) / dt (definition term) / dd (definition description)
 
 ##13 strong､br､spanを使ってみよう
 
-strong
-br
-span
+strong:重要な文章に使う  
+br:改行  
+span:テキストの一部に何らかの処理を行うときに使う  
+
+---
+
+##14 aタブでリンクを設定しよう
+
+a:リンクを張るためのタグ  
+使用例:  
+<a href="http://dotinstall.com/">コメント</a>  
+また、後ろにtarget="_blank"と付けると新しいタブで開く設定にできる  
+  
+  別のページに飛ばしたい場合は、  
+  <a href="more.html"></a>  
+  ページ内リンクを作りたい場合は、  
+  <a href="#stuff">材料に飛ぶ</a>  
+  <h2 id="stuff">材料</a>  
+  のようにする  
+  
+---
+
+##15 imgタグで画像を表示させよう
+
+<img　src="" width="" height="" alt=""> ← srcで画像で指定し、widthとheigthで幅と高さを指定する。altは画像が表示されないブラウザでだいたいメッセージを表示する
+
+---
+
+##16 tableタブで表組みの作ろう
+
+table ← テーブルを作るためのタグ  
+thead ← テーブルのヘッダーを作るためのタブ  
+tbody ← テーブル本体を作るためのタブ  
+tr: 行(table row)  
+th: 見出し(table header)  
+td: テーブルのデータ(table data)  
+colspan: テーブルに連結する  
+
+##17 formでフォームを作ろう
+
+ユーザーからの入力を受け付けて、データを送信するための仕組み
+
+action: そのフォームで入力されたデータをどこに送るか指定する  
+method: get / postというデータを送る方式がある  
+input: タグやテキストの入力欄や実行ボタンを作る
+
+---
+
+##18 inputで入力部品を作ろう
+
+input  
+  text  
+    size: 入力欄の幅を指定  
+    maxlenht: 入力出来る文字数を指定  
+    value: 初期文字を指定  
+    placeholder: 入力ガイドを表示する  
+  submit  
+  password:パスワード入力欄を作るときに使う  
+  hidden：フォーム送信先になんらかの情報を送りたいときに使う  
+  
+  ---
+  
+##19 textarea､buttonタグを使ってみよう
+  
+  textarea: テキスト入力欄を作る
+  button: ボタンを作る
+  
+  ---
+  
+##20 checkbox､radio､labelを使ってみよう
+  
+  checkbox: チェックボックスをつくる(いくつでも選べる)。checkedを付ければ初めから選択された状態にできる  
+  radio: どれか1つを選ばせるときに使う(1つしか選択出来ない)  
+  label: 関連しているものを一括でチェックを外したり付けたり出来る  
+  
+---
+  
+##21 selectタグでセレクトボックスを作ろう
+
+select: 選択しを選ぶドロップダウンリストを付くる(初めに選択される選択しはsekectedを書く)  
+multipole: 複数選択出来るようにする  
+
+  
+
+  
+  
+
+
+
+
+
 
 
 
