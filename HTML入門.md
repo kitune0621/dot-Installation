@@ -58,8 +58,10 @@
 ##06 styleタグを使って見よう
 
 <style> ← 文章の見た目を規定するためのCSSを書くことが出来るタグ
-例:  
-\body { background: skyblue; }  
+例:
+\<style>  
+\body {background: skyblue;}  
+\</style>
 
 \styleは書いていると長くなることがあるので、その場合は別のファイル(css)に分ける  
 cssファイルの指定方法は  
