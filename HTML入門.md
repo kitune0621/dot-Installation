@@ -99,6 +99,40 @@ h1 - h6:セクションに付ける見出し。h1が一番大きく、h6が最�
 
 ##09 アウトラインを意識してみよう
 
+エディタで実際に作りました  
+
+---
+
+##10 h1-h6タグで見出しを付けよう
+
+エディタで実際に作りました  
+
+---
+
+##11 p､hr､pre､blockquote､divを使かう
+
+p:段落(パラグラフ)  
+hr:水平線(話題転換をしたい時などに使う)  
+pre:改行や字下げを保持(AAなどで使う)  
+blockqupte:引用  
+div:レイアウトや見た目を規定するCSSと組み合わせてスタイリング目的でグルーピングするときに使う  
+
+---
+
+##12 ol､ul､li､dl､dt､ddでリストを作ろう
+
+リスト ← 情報をグループ化する  
+
+ol (ordered list) / ul (unorder list) / li (list item)  
+dl (definition list) / dt (definition term) / dd (definition description)  
+
+---
+
+##13 strong､br､spanを使ってみよう
+
+strong
+br
+span
 
 
 
