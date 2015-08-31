@@ -210,4 +210,82 @@ list-style ← 一気に指定出来る.順不同かつ省略可能
 ---
 
 ##16 cursorでカーソルの形状を変えよう
-- 
+
+cursor
+- .help{ cursor: help; } ← helpカーソルを表示する  
+- .dargme{ cursor: move; } ← moveカーソルを表示する  
+- .clickme{ cursor: pointer; } ← ponterカーソルを表示する  
+- .smail{ cursor: url('URL'); } ← URLで指定した画像を表示する  
+
+---
+
+##17 backgroundで背景スタイルを変えよう
+
+background-color: silver; ← 背景の色を変える  
+background-image: url('bg.jpg') ← 背景の画像を指定する  
+background-repeat: no-repeat ← 画像を一度だけ表示する(敷き詰められない)  
+/*background-repeat: repeat-x*/ ← x方向にだけ表示する  
+background-postion: 10px 10px ← 画像の位置を指定する  
+/*background-postion: top center*/ ← 言葉で指定も可能  
+background-attachment: scroll ← スクロールに追随する  
+/*background-attachment: fixed*/ ← 動かない  
+backgroundプロパティで順不同かつ省略して指定出来る  
+
+##18 displayで要素の配置方法を変えよう
+
+display
+ブロックボックス ← 下に積み重なって配置されていること  
+ブロックレベル要素 ← h1やpのこと  
+インラインボックス ← 左に詰められて配置されていること  
+インラインレベル要素 ← spanタグやaタグのこと  
+
+display:  
+  - block;  
+  - inline; ← 左に詰める(幅と高さの指定が無効になる)  
+  - list-item;  
+  - inline-block; ← 左に詰める(幅と高さを指定できる)  
+  - none; ← 何も表示しない  
+
+##19 positionで位置を調整してみよう
+
+postion:  
+  - static; ← 初期値  
+  - relative; ← staticの位置からずらして表示した場合に使う(top,bottom,right,leftを使う)  
+  - fixed; ← スクロールしても位置を固定しておきたいときに使う    
+  - absolute; ← 親要素のpostionによって変わる.box3をabsoluteのした場合、box2が親となる.box2で何も指定していない,もしくはstaticの場合、画面の左上端が基準点となる.親要素を基準点としたい場合は,box2でrelativeを使う     
+
+---
+
+##20 z-index､overflowを理解しよう
+  
+z-index
+  - 要素の重なり順を指定する  
+  - 後ろに書いたものほど上になる  
+  - 値が大きいほど上になる  
+overflow ← コンテンツが幅と高さを超えて存在するときに使う  
+  - visible ← そのまま表示する  
+  - hidden ← はみ出た部分を非表示にする  
+  - scroll ← スクロール領域を作る   
+ 
+---
+
+##21 line-height､vertical-alignを理解しよう
+
+line-height ← ボックスモデルにある行モデルを指定する(倍で指定する場合は数字のみ書く.1.5倍であれば1.5)  
+vertical-align ← 文章の途中や前後に画像などのインラインレベル要素を表示した場合に使う.デフォルト値は
+ベースライン,親要素のフォントのベースラインに揃えられる.(top,bottom,middle.?px,?emで指定する)  
+
+---
+
+##22 float､clearを使ってみよう
+
+float ← 指定した要素を通常の配置の流れから切り離し、左右に寄せるためのプロパティ(行ボックスの中身はフロートをさけて配置する).フロートされた要素はブロックボックスを生成するため、幅を指定するのが決まり.  
+clear ← フロートを解除するプロパティ(ブロックレベル要素にしか適応出来ない)  
+
+
+
+
+
+
+
+
